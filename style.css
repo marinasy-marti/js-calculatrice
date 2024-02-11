@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 370px;
+    margin-inline: auto; 
+    padding: 10px; 
+    margin-top: 80px;
+    border: 1px solid black; 
+    border-radius: 22px;
+}
+
+main #command{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+main .small-box-row{
+    display: flex; 
+    flex-direction:row; 
+    flex-wrap: nowrap;
+}
+
+main .small-box-row .small-box{
+    width: 80px; 
+    height: 80px;
+    border: 1px solid black ; 
+    border-radius: 30px;
+    margin: 5px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}   
+
+main #three-box-0{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 263px; 
+    height: 80px;
+    border: 1px solid black ; 
+    border-radius: 30px;
+    margin: 5px;
+}
+
+main  #command p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.minus-plus-equal .minus{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 5px; 
+}
+
+.minus-plus-equal .plus, .minus-plus-equal .equal{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px; 
+    height: 170px;
+    border: 1px solid black; 
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-inline: 5px;
+    
+}
+
+/*/*/
+.btn:hover{
+    background-color: rgb(37, 36, 36,0.3);
+    color: white;
+    cursor: pointer;
+}
+
+#result{
+    border: 1px solid black ;
+    width:350px;
+    height: 80px;
+    margin-inline: auto;
+    padding: 10px; 
+    border-radius:20px;
+}
